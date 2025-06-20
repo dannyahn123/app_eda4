@@ -498,7 +498,7 @@ class EDA:
 Page_Login    = st.Page(Login,    title="Login",    icon="🔐", url_path="login")
 Page_Register = st.Page(lambda: Register(Page_Login.url_path), title="Register", icon="📝", url_path="register")
 Page_FindPW   = st.Page(FindPassword, title="Find PW", icon="🔎", url_path="find-password")
-Page_Home     = st.Page(lambda: Home(Page_Login, Page_Register, Page_FindPW), title="Home", icon="�", url_path="home", default=True)
+Page_Home     = st.Page(lambda: Home(Page_Login, Page_Register, Page_FindPW), title="Home", icon="🏠", url_path="home", default=True)
 Page_User     = st.Page(UserInfo, title="My Info", icon="👤", url_path="user-info")
 Page_Logout   = st.Page(Logout,   title="Logout",  icon="🔓", url_path="logout")
 Page_EDA      = st.Page(EDA,      title="EDA",     icon="📊", url_path="eda")
